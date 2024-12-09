@@ -2,24 +2,38 @@
     "title": "Thorne's Links",
     "links": [
         {
-            "name": "Website",
+            "name": "website",
             "url": "https://www.ens0.me"
         },
         {
+            "name": "smol quest",
+            "url": "https://smol.quest/u/ens0",
+            "icon": "smolquest"
+        },
+        {
             "name": "X",
-            "url": "https://x.com/existentialenso"
+            "url": "https://x.com/existentialenso",
+            "icon": "x"
         },
         {
             "name": "Bluesky",
-            "url": "https://bsky.app/profile/ens0.me"
+            "url": "https://bsky.app/profile/ens0.me",
+            "icon": "bluesky"
         },
         {
             "name": "GitHub",
-            "url": "https://github.com/existentialenso"
+            "url": "https://github.com/existentialenso",
+            "icon": "github"
+        },
+        {
+            "name": "Reddit",
+            "url": "https://www.reddit.com/u/existentialenso",
+            "icon": "reddit"
         },
         {
             "name": "LinkedIn",
-            "url": "https://www.linkedin.com/in/existentialenso"
+            "url": "https://www.linkedin.com/in/existentialenso",
+            "icon": "linkedin"
         }
     ]
 }
