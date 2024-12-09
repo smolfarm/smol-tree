@@ -1,14 +1,19 @@
 {
     "title": "Thorne's Links",
+    "description": "All of Thorne's various social links in one place.",
+    "buttons": {
+        "bgColor": "bg-slate-800"
+    },
     "links": [
         {
             "name": "website",
-            "url": "https://www.ens0.me"
+            "url": "https://www.ens0.me",
+            "icon": "home"
         },
         {
             "name": "smol quest",
             "url": "https://smol.quest/u/ens0",
-            "icon": "smolquest"
+            "icon": "gamepad"
         },
         {
             "name": "X",
