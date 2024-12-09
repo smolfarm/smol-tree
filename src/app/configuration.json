@@ -6,7 +6,9 @@
     },
     "buttons": {
         "fontFamily": "font-mono",
-        "bgColor": "bg-slate-800"
+        "bgColor": "bg-slate-800",
+        "hoverColor": "hover:bg-slate-700",
+        "textColor": "text-orange"
     },
     "links": [
         {

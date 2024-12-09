@@ -6,12 +6,14 @@ import configuration from "./configuration.json"
 import { getIcon } from "./icon-mapper"
 
 export default function Home() {
-    const { bgColor } = configuration.buttons
+    const { bgColor, hoverColor, textColor } = configuration.buttons
     const bgColorClass = bgColor ?? "bg-slate-800"
+    const hoverColorClass = hoverColor ?? "hover:bg-slate-700"
+    const textColorClass = textColor ?? "text-white"
     const headerFontFamily = configuration.header.fontFamily ?? "font-geist-mono"
     const buttonFontFamily = configuration.buttons.fontFamily ?? "font-geist-mono"
 
-    const variableClasses = bgColorClass + " " + buttonFontFamily
+    const variableClasses = `${bgColorClass} ${hoverColorClass} ${buttonFontFamily} ${textColorClass}`
 
     return(
         <div className="flex flex-col items-center justify-center h-screen">
