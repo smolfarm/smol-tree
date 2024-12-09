@@ -1,3 +1,7 @@
+/**
+ * React component for the header of the page.
+ */
+
 import configuration from "../../linkconfig.json"
 
 type HeaderProps = {

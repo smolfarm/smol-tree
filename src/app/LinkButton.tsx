@@ -1,3 +1,7 @@
+/**
+ * React component for an individual link button.
+ */
+
 import configuration from "../../linkconfig.json"
 
 type LinkButtonProps = {
