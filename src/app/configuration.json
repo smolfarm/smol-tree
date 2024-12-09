@@ -1,7 +1,11 @@
 {
     "title": "Thorne's Links",
     "description": "All of Thorne's various social links in one place.",
+    "header": {
+        "fontFamily": "font-mono"
+    },
     "buttons": {
+        "fontFamily": "font-mono",
         "bgColor": "bg-slate-800"
     },
     "links": [
@@ -44,6 +48,11 @@
             "name": "Duolingo",
             "url": "https://www.duolingo.com/profile/existentialenso",
             "icon": "duolingo"
+        },
+        {
+            "name": "Instagram",
+            "url": "https://www.instagram.com/existentialenso",
+            "icon": "instagram"
         }
     ]
 }

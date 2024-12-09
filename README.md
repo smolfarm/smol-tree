@@ -1,10 +1,10 @@
 # ens0 links
 
-Basic Next.js app designed to replace centrally hosted link sharing apps with something that can be deployed easily to Vercel.
+Basic self-hosted app designed to replace centrally hosted link sharing services like Linktree with something that can be deployed by the end user themselves.
 
 # How to Use
 
-In the future, this may have more user-friendly features, but for now, fork the repo, edit the `src/app/configuration.json` file, and deploy to a Next.js host like Vercel.
+In the future, this may have more user-friendly features, but for now, fork the repo, edit the `src/app/configuration.json` file, and deploy to a Next.js host like Vercel. Configuration uses Tailwind classes.
 
 # Supported "icon" field values
 
@@ -18,3 +18,18 @@ In the future, this may have more user-friendly features, but for now, fork the 
 * reddit
 * home
 * gamepad
+* instagram
+* cashapp
+* opensea
+* discord
+* npm
+* lastfm
+* ubisoft
+* substack
+* wikipedia
+* apple
+* android
+* appstore
+* farcaster
+* react
+* patreon
