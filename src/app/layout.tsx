@@ -1,6 +1,6 @@
 import type { Metadata } from "next"
 import "./globals.css"
-import configuration from "./configuration.json"
+import configuration from "../../linkconfig.json"
 
 export const metadata: Metadata = {
     title: configuration.title,
