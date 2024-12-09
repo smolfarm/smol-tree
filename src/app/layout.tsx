@@ -3,20 +3,20 @@ import "./globals.css"
 import configuration from "./configuration.json"
 
 export const metadata: Metadata = {
-  title: configuration.title,
-  description: configuration.description,
+    title: configuration.title,
+    description: configuration.description,
 }
 
 export default function RootLayout({
-  children,
+    children,
 }: Readonly<{
-  children: React.ReactNode;
+    children: React.ReactNode;
 }>) {
-  return (
-    <html lang="en">
-      <body
-        className={`antialiased`}
-      >
+    return (
+        <html lang="en">
+            <body
+                className={`antialiased ${configuration.background.color ?? "bg-slate-900"}`}
+            >
         {children}
       </body>
     </html>
