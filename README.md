@@ -6,7 +6,7 @@ Basic self-hosted app designed to replace centrally hosted link sharing services
 
 # How to Use
 
-In the future, this may have more user-friendly features, but for now, fork the repo, edit the `src/app/configuration.json` file, and deploy to a Next.js host like Vercel. Configuration uses Tailwind classes.
+In the future, this may have more user-friendly features, but for now, fork the repo, edit the `configuration.json` file, and deploy to a Next.js host like Vercel. Configuration uses Tailwind classes.
 
 # Supported "icon" field values
 
