@@ -4,6 +4,9 @@ import { FaLinkedin } from "react-icons/fa"
 import { FaReddit } from "react-icons/fa"
 import { FaBluesky } from "react-icons/fa6"
 import { FaGithub } from "react-icons/fa"
+import { SiDuolingo } from "react-icons/si"
+import { FaYoutube } from "react-icons/fa"
+import { FaSteam } from "react-icons/fa"
 
 const getIcon = (slug: string) => {
     switch (slug) {
@@ -17,6 +20,12 @@ const getIcon = (slug: string) => {
             return <FaBluesky className="w-8 h-8 mr-2" />
         case "github":
             return <FaGithub className="w-8 h-8 mr-2" />
+        case "youtube":
+            return <FaYoutube className="w-8 h-8 mr-2" />
+        case "duolingo":
+            return <SiDuolingo className="w-8 h-8 mr-2" />
+        case "steam":
+            return <FaSteam className="w-8 h-8 mr-2" />
         default:
             return <></>
     }

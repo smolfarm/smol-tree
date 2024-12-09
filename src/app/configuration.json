@@ -34,6 +34,11 @@
             "name": "LinkedIn",
             "url": "https://www.linkedin.com/in/existentialenso",
             "icon": "linkedin"
+        },
+        {
+            "name": "Duolingo",
+            "url": "https://www.duolingo.com/profile/existentialenso",
+            "icon": "duolingo"
         }
     ]
 }
