@@ -1,8 +1,12 @@
 {
     "title": "Thorne's Links",
     "description": "All of Thorne's various social links in one place.",
+    "background": {
+        "color": "bg-[#101019]"
+    },
     "header": {
-        "fontFamily": "font-mono"
+        "fontFamily": "font-mono",
+        "textColor": "text-white"
     },
     "buttons": {
         "fontFamily": "font-mono",
