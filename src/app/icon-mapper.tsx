@@ -37,6 +37,10 @@ import { SiDuolingo,
     SiWordpress,
     SiLeetcode,
     SiYoutube,
+    SiSpotify,
+    SiTwitch,
+    SiGoogledrive,
+    SiMedium,
     SiOpensea  } from "react-icons/si"
 
 const iconClasses = "w-8 h-8 mr-3"
@@ -75,6 +79,8 @@ export function getIcon(slug: string) {
             return <SiGitlab className={iconClasses} />
         case "gofundme":
             return <SiGofundme className={iconClasses} />
+        case "googledrive":
+            return <SiGoogledrive className={iconClasses} />
         case "hackernews":
             return <FaHackerNews className={iconClasses} />
         case "home":
@@ -87,6 +93,8 @@ export function getIcon(slug: string) {
             return <SiLeetcode className={iconClasses} />
         case "linkedin":
             return <FaLinkedin className={iconClasses} />
+        case "medium":
+            return <SiMedium className={iconClasses} />
         case "npm":
             return <SiNpm className={iconClasses} />
         case "opensea":
@@ -99,6 +107,8 @@ export function getIcon(slug: string) {
             return <SiReact className={iconClasses} />
         case "reddit":
             return <FaReddit className={iconClasses} />
+        case "spotify":
+            return <SiSpotify className={iconClasses} />
         case "steam":
             return <FaSteam className={iconClasses} />
         case "substack":
@@ -107,6 +117,8 @@ export function getIcon(slug: string) {
             return <SiThreads className={iconClasses} />
         case "tumblr":
             return <SiTumblr className={iconClasses} />
+        case "twitch":
+            return <SiTwitch className={iconClasses} />
         case "twitter":
         case "x":
             return <FaXTwitter className={iconClasses} />
