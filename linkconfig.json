@@ -1,6 +1,6 @@
 {
     "title": "smol tree",
-    "description": "Self-hosted solution for a list of easily clickable links.",
+    "description": "Self-hosted, open source solution for a list of easily clickable links.",
     "fontFamily": "font-sans",
     "textColor": "text-white",
     "background": {
