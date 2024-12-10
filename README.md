@@ -1,4 +1,4 @@
-# ens0 links
+# smol tree
 
 Self-hosted app designed to replace centrally hosted link sharing services like Linktree with something that can be deployed and maintained by the end user themselves.
 
@@ -12,28 +12,28 @@ In the future, this may have more user-friendly features, but for now, fork the 
 
 Each link can optionally have an icon displayed before it, which is specified in the `icon` field. The following values are supported:
 
+* android
+* apple
+* appstore
+* bluesky
+* cashapp
+* discord
+* duolingo
+* farcaster
+* gamepad
+* github
+* home
+* instagram
+* lastfm
+* linkedin
+* npm
+* opensea
+* patreon
+* react
+* reddit
+* steam
+* substack
+* ubisoft
+* wikipedia
 * x
 * youtube
-* steam
-* duolingo
-* bluesky
-* github
-* linkedin
-* reddit
-* home
-* gamepad
-* instagram
-* cashapp
-* opensea
-* discord
-* npm
-* lastfm
-* ubisoft
-* substack
-* wikipedia
-* apple
-* android
-* appstore
-* farcaster
-* react
-* patreon
