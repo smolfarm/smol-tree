@@ -1,4 +1,4 @@
-# ens0 links
+# smol tree
 
 Self-hosted app designed to replace centrally hosted link sharing services like Linktree with something that can be deployed and maintained by the end user themselves.
 
