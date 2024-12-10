@@ -17,6 +17,11 @@
             "name": "github",
             "icon": "github",
             "url": "https://github.com/smolfarm/smol-tree"
+        },
+        {
+            "name": "discord",
+            "icon": "discord",
+            "url": "https://discord.gg/bgxhYuTenB"
         }
     ]
 }
