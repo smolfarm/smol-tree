@@ -6,8 +6,7 @@ import { FaXTwitter,
     FaLinkedin, 
     FaReddit, 
     FaBluesky, 
-    FaGithub, 
-    FaYoutube, 
+    FaGithub,
     FaSteam, 
     FaHackerNews,
     FaInstagram,
@@ -48,77 +47,75 @@ const iconClasses = "w-8 h-8 mr-3"
  */
 export function getIcon(slug: string) {
     switch (slug) {
-        case "leetcode":
-            return <SiLeetcode className={iconClasses} />
-        case "youtube":
-            return <SiYoutube className={iconClasses} />
-        case "wordpress":
-            return <SiWordpress className={iconClasses} />
-        case "threads":
-            return <SiThreads className={iconClasses} />
-        case "gofundme":
-            return <SiGofundme className={iconClasses} />
-        case "patreon":
-            return <SiPatreon className={iconClasses} />
-        case "react":
-            return <SiReact className={iconClasses} />
-        case "gitlab":
-            return <SiGitlab className={iconClasses} />
-        case "farcaster":
-            return <SiFarcaster className={iconClasses} />
-        case "facebook":
-            return <SiFacebook className={iconClasses} />
-        case "apple":
-            return <SiApple className={iconClasses} />
         case "android":
             return <SiAndroid className={iconClasses} />
+        case "apple":
+            return <SiApple className={iconClasses} />
         case "appstore":
             return <SiAppstore className={iconClasses} />
-        case "wikipedia":
-            return <SiWikipedia className={iconClasses} />
-        case "lastfm":
-            return <SiLastdotfm className={iconClasses} />
-        case "ubisoft":
-            return <SiUbisoft className={iconClasses} />
-        case "substack":
-            return <SiSubstack className={iconClasses} />
-        case "tumblr":
-            return <SiTumblr className={iconClasses} />
-        case "rarible":
-            return <SiRarible className={iconClasses} />
-        case "npm":
-            return <SiNpm className={iconClasses} />
-        case "discord":
-            return <SiDiscord className={iconClasses} />
-        case "hackernews":
-            return <FaHackerNews className={iconClasses} />
-        case "twitter":
-        case "x":
-            return <FaXTwitter className={iconClasses} />
-        case "linkedin":
-            return <FaLinkedin className={iconClasses} />
-        case "reddit":
-            return <FaReddit className={iconClasses} />
         case "bluesky":
             return <FaBluesky className={iconClasses} />
-        case "github":
-            return <FaGithub className={iconClasses} />
-        case "youtube":
-            return <FaYoutube className={iconClasses} />
+        case "cashapp":
+            return <SiCashapp className={iconClasses} />
+        case "discord":
+            return <SiDiscord className={iconClasses} />
         case "duolingo":
             return <SiDuolingo className={iconClasses} />
-        case "steam":
-            return <FaSteam className={iconClasses} />
+        case "facebook":
+            return <SiFacebook className={iconClasses} />
+        case "farcaster":
+            return <SiFarcaster className={iconClasses} />
         case "gamepad":
             return <FaGamepad className={iconClasses} />
+        case "github":
+            return <FaGithub className={iconClasses} />
+        case "gitlab":
+            return <SiGitlab className={iconClasses} />
+        case "gofundme":
+            return <SiGofundme className={iconClasses} />
+        case "hackernews":
+            return <FaHackerNews className={iconClasses} />
         case "home":
             return <FaHome className={iconClasses} />
         case "instagram":
             return <FaInstagram className={iconClasses} />
-        case "cashapp":
-            return <SiCashapp className={iconClasses} />
+        case "lastfm":
+            return <SiLastdotfm className={iconClasses} />
+        case "leetcode":
+            return <SiLeetcode className={iconClasses} />
+        case "linkedin":
+            return <FaLinkedin className={iconClasses} />
+        case "npm":
+            return <SiNpm className={iconClasses} />
         case "opensea":
             return <SiOpensea className={iconClasses} />
+        case "patreon":
+            return <SiPatreon className={iconClasses} />
+        case "rarible":
+            return <SiRarible className={iconClasses} />
+        case "react":
+            return <SiReact className={iconClasses} />
+        case "reddit":
+            return <FaReddit className={iconClasses} />
+        case "steam":
+            return <FaSteam className={iconClasses} />
+        case "substack":
+            return <SiSubstack className={iconClasses} />
+        case "threads":
+            return <SiThreads className={iconClasses} />
+        case "tumblr":
+            return <SiTumblr className={iconClasses} />
+        case "twitter":
+        case "x":
+            return <FaXTwitter className={iconClasses} />
+        case "ubisoft":
+            return <SiUbisoft className={iconClasses} />
+        case "wikipedia":
+            return <SiWikipedia className={iconClasses} />
+        case "wordpress":
+            return <SiWordpress className={iconClasses} />
+        case "youtube":
+            return <SiYoutube className={iconClasses} />
         default:
             return <></>
     }
