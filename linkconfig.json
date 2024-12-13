@@ -1,62 +1,22 @@
 {
-    "title": "Thorne's Links",
-    "description": "All of Thorne's various social links in one place.",
-    "fontFamily": "font-mono",
+    "title": "smol tree",
+    "description": "Self-hosted, open source solution for a list of easily clickable links.",
+    "fontFamily": "font-sans",
     "textColor": "text-white",
     "background": {
         "color": "bg-[#101019]"
     },
     "buttons": {
-        "fontFamily": "font-mono",
-        "bgColor": "bg-slate-800",
-        "hoverColor": "hover:bg-slate-700",
+        "fontFamily": "font-serif",
+        "bgColor": "bg-blue-800",
+        "hoverColor": "hover:bg-blue-700",
         "textColor": "text-white"
     },
     "links": [
         {
-            "name": "website",
-            "url": "https://www.ens0.me",
-            "icon": "home"
-        },
-        {
-            "name": "smol quest",
-            "url": "https://smol.quest/u/ens0",
-            "icon": "gamepad"
-        },
-        {
-            "name": "X",
-            "url": "https://x.com/existentialenso",
-            "icon": "x"
-        },
-        {
-            "name": "Bluesky",
-            "url": "https://bsky.app/profile/ens0.me",
-            "icon": "bluesky"
-        },
-        {
-            "name": "GitHub",
-            "url": "https://github.com/existentialenso",
-            "icon": "github"
-        },
-        {
-            "name": "Reddit",
-            "url": "https://www.reddit.com/u/existentialenso",
-            "icon": "reddit"
-        },
-        {
-            "name": "LinkedIn",
-            "url": "https://www.linkedin.com/in/ens0",
-            "icon": "linkedin"
-        },
-        {
-            "name": "Duolingo",
-            "url": "https://www.duolingo.com/profile/existentialenso",
-            "icon": "duolingo"
-        },
-        {
-            "name": "Instagram",
-            "url": "https://www.instagram.com/existentialenso",
-            "icon": "instagram"
+            "name": "github",
+            "icon": "github",
+            "url": "https://github.com/smolfarm/smol-tree"
         }
     ]
 }
