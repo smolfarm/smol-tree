@@ -1,6 +1,6 @@
 # smol tree
 
-Self-hosted app designed to replace centrally hosted link sharing services like Linktree with something that can be deployed and maintained by the end user themselves. Built using Nextjs. Can easily be deployed to Vercel.
+Basic, self-hosted app designed to replace centrally hosted link sharing services like Linktree. Built using Nextjs. Can easily be deployed to Vercel.
 
 # How to Use
 

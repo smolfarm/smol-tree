@@ -1,3 +1,7 @@
+/**
+ * Main layout file for smol tree.
+ */
+
 import type { Metadata } from "next"
 import "./globals.css"
 import configuration from "../../linkconfig.json"
