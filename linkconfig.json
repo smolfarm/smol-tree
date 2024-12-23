@@ -1,6 +1,6 @@
 {
     "title": "smol tree",
-    "description": "Self-hosted, open source solution for a list of easily clickable links.",
+    "description": "Self-hosted, open source solution for a list of easily clickable links. By smol farm.",
     "fontFamily": "font-sans",
     "textColor": "text-white",
     "background": {
@@ -17,6 +17,11 @@
             "name": "github",
             "icon": "github",
             "url": "https://github.com/smolfarm/smol-tree"
+        },
+        {
+            "name": "discord",
+            "icon": "discord",
+            "url": "https://discord.gg/bgxhYuTenB"
         }
     ]
 }
