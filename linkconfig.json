@@ -1,5 +1,6 @@
 {
     "title": "smol tree",
+    "logo": "/icon.png",
     "description": "Self-hosted, open source solution for a list of easily clickable links. By smol farm.",
     "fontFamily": "font-sans",
     "textColor": "text-white",

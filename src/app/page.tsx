@@ -11,6 +11,7 @@ export default function Home() {
 
     return(
         <div className={`flex flex-col items-center justify-center h-screen ${fontFamily} ${textColor}`}>
+            {configuration.logo && <img src={configuration.logo} alt="Logo" className="max-w-32 max-h-32 my-2" />}
             <Header>{configuration.title}</Header>
             <p className="text-center text-sm">{configuration.description}</p>
             <div className="w-full p-4">
