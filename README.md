@@ -6,7 +6,7 @@ Basic, self-hosted app designed to replace centrally hosted link sharing service
 
 Fork the [repo on GitHub](https://github.com/smolfarm/smol-tree) to create a version of the repository you can deploy where you like.
 
-Edit the `linkconfg.json` file, and deploy it wherever you like. The one in the repository is used by our website, [smoltree.xyz](https://smoltree.xyz).
+Edit the `linkconfg.json` file, and deploy it wherever you like. The one in the repository is used by our website, [smoltree.xyz](https://smoltree.xyz). There are further examples of configurations in the `examples` directory.
 
 To run it locally, run the following with your favorite package manager (we like pnpm):
 ```bash
@@ -16,7 +16,7 @@ pnpm run dev
 
 # Configuration
 
-Currently, smol tree can only be configured by JSON, though we may offer more user-friendly ways to do it in the future.
+Currently, smol tree can only be configured through the `linkconfig.json` JSON file, though we may offer more user-friendly ways to do it in the future.
 
 ## Styles
 
