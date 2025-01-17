@@ -1,5 +1,9 @@
+/* eslint-disable @next/next/no-img-element */
+
 /**
  * Main page for the app, which displays the links in a list as large buttons.
+ * 
+ * To prevent incurring extra costs on Vercel, we do not use the Next <Image> tag here, though the <img> tag can be swapped out as necessary.
  */
 
 import configuration from "../../linkconfig.json"
