@@ -10,9 +10,10 @@ import { FaXTwitter,
     FaSteam, 
     FaHackerNews,
     FaInstagram,
-    FaGamepad } from "react-icons/fa6"
+    FaGamepad,
+    FaBagShopping } from "react-icons/fa6"
 
-import { FaHome } from "react-icons/fa"
+import { FaHome, FaAmazon } from "react-icons/fa"
 
 import { SiDuolingo, 
     SiDiscord,
@@ -53,6 +54,8 @@ const iconClasses = "w-8 h-8 mr-3"
  */
 export function getIcon(slug: string) {
     switch (slug) {
+        case "amazon":
+            return <FaAmazon className={iconClasses} />
         case "android":
             return <SiAndroid className={iconClasses} />
         case "apple":
@@ -130,6 +133,8 @@ export function getIcon(slug: string) {
             return <SiWordpress className={iconClasses} />
         case "youtube":
             return <SiYoutube className={iconClasses} />
+        case "shoppingbag":
+            return <FaBagShopping className={iconClasses} />
         default:
             return <></>
     }
